@@ -577,7 +577,11 @@ main {
 }
 
 .p2 .contentb {
-    padding: 30px;
+    margin: 0 auto;
+}
+
+.p2 .contentb .section img {
+    width: 100%;
 }
 
 .p2 .contentb button {
@@ -841,11 +845,24 @@ main {
 
 .p4 .contentb {
     width: 80%;
-    height: 70vh;
     margin: 0 auto;
     background-color: #fff;
     border-radius: 10px;
     border: 50px solid #fc91cc;
+}
+
+.video {
+    position: relative;
+    padding-top: 56.25%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -925,15 +942,13 @@ main {
 }
 
 .porttitle {
-    width: 40%;
+    width: 100%;
     margin: 50px auto;
 }
 
 .portline {
     width: 100%;
     margin: 0 auto;
-    height: 700px;
-    padding: 20px;
 }
 
 .section {
@@ -949,19 +964,19 @@ main {
 }
 
 .portvend h5 {
-    width: 300px;
+    width: 50%;
     line-height: 100px;
 }
 
 .portvendbtn {
-    width: 300px;
+    width: 100%;
     padding: 25px;
 }
 
 .portvendbtn button {
-    width: 200px;
-    height: 70px;
+    width: 80%;
     border-radius: 30px;
+    padding: 10px 0;
     background-color: rgb(255, 37, 37);
     color: #fff;
     font-size: 1.5rem;
@@ -969,21 +984,30 @@ main {
 }
 
 
-.port img {
-    width: 255px;
-    height: 470px;
+.port {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: #4033d3;
 }
 
-.port img:nth-child(1) {flex: 0 1 auto;}
-.port img:nth-child(2) {flex: 1 1 auto;}
-.port img:nth-child(3) {flex: 2 1 auto;}
-.port img:nth-child(4) {flex: 0 2 auto;}
+.port img {
+    width: 15%;
+}
+
 
 
 .dropplace {
     width: 100%;
     height: 100vh;
     position: relative;
+}
+
+.dropplace h3 {
+    width: 100%;
+    height: 60vh;
+    background-color: gray;
+    line-height: 200px;
 }
 
 
