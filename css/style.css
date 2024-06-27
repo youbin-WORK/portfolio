@@ -578,6 +578,7 @@ main {
 
 .p2 .contentb {
     margin: 0 auto;
+    position: relative;
 }
 
 .p2 .contentb .section img {
@@ -595,7 +596,8 @@ main {
 
 .p2 .contentb .lever {
     position: absolute;
-    top: 39%; left: 48.7%;
+    top: 61.5%; left: 50%;
+    transform: translateX(-51%);
 }
 
 .p2-m0 {
@@ -744,6 +746,13 @@ main {
     position: absolute;
     z-index: 6;
     background-color: rgb(0, 162, 255);
+}
+
+.contimage {
+    width: 20%;
+    height: 40vh;
+    background-color: gray;
+    line-height: 40vh;
 }
 
 .content {
@@ -907,28 +916,26 @@ main {
 
 .btncontent {
     width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
 #btn1 , #btn2 , #btn3 {
-    font-size: 3rem;
-    line-height: 3rem;
+    font-size: 6rem;
+    line-height: 6rem;
 }
 
 #btn1 img  {
-    width: 300px;
-    height: 300px;
+    width: 100%;
     cursor: url('../images/cursor2.png') 2 2, auto;
 }
 #btn2 img  {
-    width: 300px;
-    height: 300px;
+    width: 100%;
     cursor: url('../images/cursor2.png') 2 2, auto;
 }
 #btn3 img  {
-    width: 300px;
-    height: 300px;
+    width: 100%;
     cursor: url('../images/cursor2.png') 2 2, auto;
 }
 

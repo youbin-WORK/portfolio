@@ -38,19 +38,18 @@
         transform: translateX(-50%);
     }
 
-    #btn1 img  {
-        width: 100px;
-        height: 100px;
+    #btn1 {
+        width: 80%;
     }
-    #btn2 img  {
-        width: 100px;
-        height: 100px;
+    #btn2 {
+        width: 80%;
     }
-    #btn3 img  {
-        width: 100px;
-        height: 100px;
+    #btn3 {
+        width: 80%;
     }
 
     
+
+
 
 }
