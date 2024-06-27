@@ -1,0 +1,54 @@
+@media screen and (max-width: 768px) {
+
+    ::-webkit-scrollbar {
+        opacity: 0;
+    }
+
+    .headervend {
+        width: 40%;
+    }
+    .headervend h4 {
+        font-size: 1rem;
+    }
+
+    .maintitle {
+        width: 80%;
+        top: 300px;
+    }
+
+
+    #main2 img:nth-child(1) {
+        width: 100%;
+    }    
+    #main2 img:nth-child(2) {
+        top: 80px; left: 0;
+    }
+    #main2 img:nth-child(3) {
+        top: 35px; right: 500px;
+    }
+
+    .headercontent .content2{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1rem;
+        padding: 0 5px;
+        line-height: 80px;
+        bottom: 0; left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #btn1 img  {
+        width: 100px;
+        height: 100px;
+    }
+    #btn2 img  {
+        width: 100px;
+        height: 100px;
+    }
+    #btn3 img  {
+        width: 100px;
+        height: 100px;
+    }
+
+}
